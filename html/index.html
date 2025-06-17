@@ -3,9 +3,8 @@
 <html>
 
 <head>
-<link rel="stylesheet" href="header.css">
-<link rel="stylesheet" href="directory.css">
-<script src ="auth.js"></script>
+<link rel="stylesheet" href="../css/header.css">
+<link rel="stylesheet" href="../css/directory.css">
 </head>
 
 <style>
@@ -34,19 +33,7 @@
         
         <table id="directorytable">
             <tr>
-                <td> <a href="A1.html">1st Article</a> </td>
-                <td>June 3rd 2024</td>
-                <td>admin</td>
-            </tr>
-
-            <tr>
-                <td> <a href="A2.html">2nd Article</a> </td>
-                <td>June 3rd 2024</td>
-                <td>admin</td>
-            </tr>
-
-            <tr>
-                <td> <a href="A3.html">3rd Article</a> </td>
+                <td> <a href="../html/A1.html">1st Article</a> </td>
                 <td>June 3rd 2024</td>
                 <td>admin</td>
             </tr>
@@ -64,8 +51,10 @@
     <td id="UPID"></td>
     <td>]</td>
     </table>
-    </div>
-    <script> document.getElementById("UPID").innerText = 'UPID: ' + getUPID(); </script>
+
+    <script src ="../javascript/auth.js"></script>
+    <script> document.getElementById("UPID").innerText = 'UPID: ' + getUPID(); </script>    
+</div>
 
 
 </body>
